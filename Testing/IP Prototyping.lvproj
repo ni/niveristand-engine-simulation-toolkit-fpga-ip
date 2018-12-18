@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -526,6 +526,10 @@
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Mod1/AO0resource=/crio_Mod1/AO0;0;WriteMethodType=i16Mod1/AO1resource=/crio_Mod1/AO1;0;WriteMethodType=i16Mod1/AO2resource=/crio_Mod1/AO2;0;WriteMethodType=i16Mod1/AO3resource=/crio_Mod1/AO3;0;WriteMethodType=i16Mod1[crioConfig.Begin]crio.Calibration=0,crio.Location=Slot 1,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/DI0resource=/crio_Mod2/DI0;0;ReadMethodType=boolMod2/DI10resource=/crio_Mod2/DI10;0;ReadMethodType=boolMod2/DI11resource=/crio_Mod2/DI11;0;ReadMethodType=boolMod2/DI12resource=/crio_Mod2/DI12;0;ReadMethodType=boolMod2/DI13resource=/crio_Mod2/DI13;0;ReadMethodType=boolMod2/DI14resource=/crio_Mod2/DI14;0;ReadMethodType=boolMod2/DI15:8resource=/crio_Mod2/DI15:8;0;ReadMethodType=u8Mod2/DI15resource=/crio_Mod2/DI15;0;ReadMethodType=boolMod2/DI16resource=/crio_Mod2/DI16;0;ReadMethodType=boolMod2/DI17resource=/crio_Mod2/DI17;0;ReadMethodType=boolMod2/DI18resource=/crio_Mod2/DI18;0;ReadMethodType=boolMod2/DI19resource=/crio_Mod2/DI19;0;ReadMethodType=boolMod2/DI1resource=/crio_Mod2/DI1;0;ReadMethodType=boolMod2/DI20resource=/crio_Mod2/DI20;0;ReadMethodType=boolMod2/DI21resource=/crio_Mod2/DI21;0;ReadMethodType=boolMod2/DI22resource=/crio_Mod2/DI22;0;ReadMethodType=boolMod2/DI23:16resource=/crio_Mod2/DI23:16;0;ReadMethodType=u8Mod2/DI23resource=/crio_Mod2/DI23;0;ReadMethodType=boolMod2/DI24resource=/crio_Mod2/DI24;0;ReadMethodType=boolMod2/DI25resource=/crio_Mod2/DI25;0;ReadMethodType=boolMod2/DI26resource=/crio_Mod2/DI26;0;ReadMethodType=boolMod2/DI27resource=/crio_Mod2/DI27;0;ReadMethodType=boolMod2/DI28resource=/crio_Mod2/DI28;0;ReadMethodType=boolMod2/DI29resource=/crio_Mod2/DI29;0;ReadMethodType=boolMod2/DI2resource=/crio_Mod2/DI2;0;ReadMethodType=boolMod2/DI30resource=/crio_Mod2/DI30;0;ReadMethodType=boolMod2/DI31:0resource=/crio_Mod2/DI31:0;0;ReadMethodType=u32Mod2/DI31:24resource=/crio_Mod2/DI31:24;0;ReadMethodType=u8Mod2/DI31resource=/crio_Mod2/DI31;0;ReadMethodType=boolMod2/DI3resource=/crio_Mod2/DI3;0;ReadMethodType=boolMod2/DI4resource=/crio_Mod2/DI4;0;ReadMethodType=boolMod2/DI5resource=/crio_Mod2/DI5;0;ReadMethodType=boolMod2/DI6resource=/crio_Mod2/DI6;0;ReadMethodType=boolMod2/DI7:0resource=/crio_Mod2/DI7:0;0;ReadMethodType=u8Mod2/DI7resource=/crio_Mod2/DI7;0;ReadMethodType=boolMod2/DI8resource=/crio_Mod2/DI8;0;ReadMethodType=boolMod2/DI9resource=/crio_Mod2/DI9;0;ReadMethodType=boolMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]NI 9154/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9154FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Sleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA1 LEDresource=/USER FPGA1 LED;0;ReadMethodType=u8;WriteMethodType=u8USER FPGA1 SwitchNumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA1 Switch;0;ReadMethodType=boolUSER FPGA2 LEDresource=/USER FPGA2 LED;0;ReadMethodType=u8;WriteMethodType=u8USER FPGA2 SwitchNumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA2 Switch;0;ReadMethodType=boolUSER FPGA3 LEDresource=/USER FPGA3 LED;0;ReadMethodType=u8;WriteMethodType=u8USER FPGA3 SwitchNumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA3 Switch;0;ReadMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\SVN\Engine Position Simulation\FPGA IP\Testing\IP\FPGA Bitfiles\IPPrototyping_FPGATarget_9154test_77q8-1NJa7I.lvbitx</Property>
 				</Item>
+				<Item Name="IP Builder" Type="IP Builder Target">
+					<Item Name="Dependencies" Type="Dependencies"/>
+					<Item Name="Build Specifications" Type="Build"/>
+				</Item>
 				<Item Name="Mod1" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">0</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
@@ -555,39 +559,13 @@
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../IP Source/Engine Simulation Toolkit.lvlib"/>
-					<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
-					<Item Name="niFpgaEmulationReportErrorSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationReportErrorSimple.vi"/>
-					<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-					<Item Name="niFpgaEmulError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/niFpgaEmulError.ctl"/>
-					<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaGenCallStack.vi"/>
-					<Item Name="niFpgaGetClockAttributes.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributes.vi"/>
-					<Item Name="niFpgaGetClockAttributesFromContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributesFromContext.vi"/>
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="niFpgaProcessEmulError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaProcessEmulError.vi"/>
-					<Item Name="niFpgaSctlEmulationGetInTimedLoop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGetInTimedLoop.vi"/>
-					<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
-					<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-					<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
-					<Item Name="nirvififoEmulationReleaseLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationReleaseLock.vi"/>
-					<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviFillInErrorInfo.vi"/>
-					<Item Name="nirviGetToplevelTsByTargetItem.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviGetToplevelTsByTargetItem.vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (Bool).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (Bool).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (String).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (String).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (U32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (U32).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError.vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalErrorHelper.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalErrorHelper.vi"/>
-					<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
-					<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
-					<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="9154 test" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">9154 test</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_FPGATarget_9154test_Qwx39jusQwI.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_FPGATarget_9154test_AzZ0uk02yp4.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -596,6 +574,13 @@
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -1876,6 +1861,10 @@
 				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 			</Item>
+			<Item Name="IP Builder" Type="IP Builder Target">
+				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Build Specifications" Type="Build"/>
+			</Item>
 			<Item Name="Knock Signal FIFO" Type="FPGA FIFO">
 				<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
 				<Property Name="Arbitration for Read" Type="UInt">1</Property>
@@ -1899,49 +1888,31 @@
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="instr.lib" Type="Folder">
-					<Item Name="niInstr Basic Elements v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/niInstr Basic Elements v1 FPGA.lvlib"/>
+					<Item Name="Count Up U32.vi" Type="VI" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/Count Up U32.vi"/>
+					<Item Name="Count Up.vi" Type="VI" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Public/Count Up.vi"/>
 				</Item>
 				<Item Name="user.lib" Type="Folder">
-					<Item Name="AES.lvlib" Type="Library" URL="/&lt;userlib&gt;/AES/AES.lvlib"/>
+					<Item Name="AES Angle Processing Unit.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Angle Processing Unit.vi"/>
+					<Item Name="AES Calculate Replay Address.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Calculate Replay Address.vi"/>
+					<Item Name="AES Data Replay Voltage Scaling.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Data Replay Voltage Scaling.vi"/>
+					<Item Name="AES ECU Event Measurement - All Measurements.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES ECU Event Measurement - All Measurements.vi"/>
+					<Item Name="AES ECU Event Measurement.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES ECU Event Measurement.vi"/>
+					<Item Name="AES Fully Customizable Teeth Generation.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Fully Customizable Teeth Generation.vi"/>
+					<Item Name="AES Limit APU Speed Request By Acceleration.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Limit APU Speed Request By Acceleration.vi"/>
+					<Item Name="aes_FullyCustomTeeth ActionEngine Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA TypeDefs/aes_FullyCustomTeeth ActionEngine Enum.ctl"/>
 					<Item Name="Engine Simulation Globals.vi" Type="VI" URL="/&lt;userlib&gt;/_NI VeriStand FPGA Support/NI VeriStand RIO Library/Custom Device Components/Engine Simulation/Engine Simulation Globals.vi"/>
 				</Item>
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
-				<Item Name="niFpgaEmulationReportErrorSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationReportErrorSimple.vi"/>
-				<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-				<Item Name="niFpgaEmulError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/niFpgaEmulError.ctl"/>
-				<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaGenCallStack.vi"/>
-				<Item Name="niFpgaGetClockAttributes.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributes.vi"/>
-				<Item Name="niFpgaGetClockAttributesFromContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributesFromContext.vi"/>
-				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-				<Item Name="niFpgaProcessEmulError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaProcessEmulError.vi"/>
-				<Item Name="niFpgaSctlEmulationGetInTimedLoop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGetInTimedLoop.vi"/>
-				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
-				<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-				<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-				<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
-				<Item Name="nirvififoEmulationReleaseLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationReleaseLock.vi"/>
-				<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviFillInErrorInfo.vi"/>
-				<Item Name="nirviGetToplevelTsByTargetItem.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviGetToplevelTsByTargetItem.vi"/>
-				<Item Name="nirviReportUnexpectedCaseInternalError (Bool).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (Bool).vi"/>
-				<Item Name="nirviReportUnexpectedCaseInternalError (String).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (String).vi"/>
-				<Item Name="nirviReportUnexpectedCaseInternalError (U32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (U32).vi"/>
-				<Item Name="nirviReportUnexpectedCaseInternalError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError.vi"/>
-				<Item Name="nirviReportUnexpectedCaseInternalErrorHelper.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalErrorHelper.vi"/>
-				<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
-				<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
-				<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="APU" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU_aS3Zp5PE9DE.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU_rHC4Wuzmhdo.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1950,6 +1921,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -1971,7 +1949,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + 1 Data Replay</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+1DataReplay_fhlXVhIN4yI.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+1DataReplay_5fyqrQF1Y0M.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1980,6 +1958,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2001,7 +1986,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + 1 Directional Sim</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+1Directional_R0NmjkcP+Y0.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+1Directional_HTMfTCJ6QKU.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2010,6 +1995,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2031,7 +2023,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + 1 Directional Sim + 1 Dig Pattern</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+1Directional_TS3qmRvenyE.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+1Directional_pcSPefEKqx8.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2040,6 +2032,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2061,7 +2060,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + 2 Data Replay</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+2DataReplay_i1zA7i+4EZ4.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+2DataReplay_tf1px4VT6Tk.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2070,6 +2069,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2091,7 +2097,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + 4 Digital Patterns</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+4DigitalPatt_kbU7KYqEmOA.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+4DigitalPatt_ta1qJ1la5FE.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2100,6 +2106,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2121,7 +2134,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + Event Timing v6 four shots</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+EventTimingv_FkSS3s3WAmk.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+EventTimingv_WfLthxzuIGI.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2130,6 +2143,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2151,7 +2171,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + Event Timing v6 single shot</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+EventTimingv_BplNbteRFC4.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+EventTimingv_q4AhcudHTos.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2160,6 +2180,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2181,7 +2208,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">APU + Knock Compile test</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+KnockCompile_9ad4kx7SMWk.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_APU+KnockCompile_aKyJmkVqShw.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2190,6 +2217,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2211,7 +2245,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">Everything</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_Everything_iYtI5szpmQ8.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_Everything_+GtbZxrrGeY.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2220,6 +2254,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2241,7 +2282,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">old APU</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPU_NQk-XVQjo-s.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPU_DartK6kTd0M.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2250,6 +2291,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2271,7 +2319,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">old APU + 1 old Data Replay</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_FPGATarget_oldAPU+1oldDataR_qlka9Y0-Q-I.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPU+1oldDataR_vi7ebQEl2tA.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2280,6 +2328,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2301,7 +2356,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">old APU + 2 old Data Replay</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_FPGATarget_oldAPU+2oldDataR_TCrxFVZYJnI.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPU+2oldDataR_c2+WtSXOCqw.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2310,6 +2365,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2331,7 +2393,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">old APU + 4 CAMs</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPU+4CAMs_lvjOKRL7O-U.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPU+4CAMs_eUmVZ8PN-S0.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2340,6 +2402,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2361,7 +2430,7 @@
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">old APU and old Event Timing v6 single shot</Property>
-					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPUandoldEven_laWrwU7NHRc.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_USB-7856R_oldAPUandoldEven_iTZ4hIhw5GQ.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -2370,6 +2439,13 @@
 					<Property Name="Comp.Version.Major" Type="Int">1</Property>
 					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
 					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 					<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
@@ -2390,7 +2466,12 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="AES.lvlib" Type="Library" URL="/&lt;userlib&gt;/AES/AES.lvlib"/>
+				<Item Name="AES Angle Processing Unit.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Angle Processing Unit.vi"/>
+				<Item Name="AES APU Acceleration To Increment Rate.vi" Type="VI" URL="/&lt;userlib&gt;/AES/RT/AES APU Acceleration To Increment Rate.vi"/>
+				<Item Name="AES APU Degrees per Tick.vi" Type="VI" URL="/&lt;userlib&gt;/AES/RT/AES APU Degrees per Tick.vi"/>
+				<Item Name="AES DataReplay Calculate Address Multiplier.vi" Type="VI" URL="/&lt;userlib&gt;/AES/RT/AES DataReplay Calculate Address Multiplier.vi"/>
+				<Item Name="AES DataReplay Calculate Voltage Scaler.vi" Type="VI" URL="/&lt;userlib&gt;/AES/RT/AES DataReplay Calculate Voltage Scaler.vi"/>
+				<Item Name="AES Limit APU Speed Request By Acceleration.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Limit APU Speed Request By Acceleration.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -2453,7 +2534,7 @@
 				<Item Name="Execute Query Expression.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Execute Query Expression.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Get Property (DBL).vi"/>
 				<Item Name="Get Property (Enum).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Get Property (Enum).vi"/>
@@ -2474,6 +2555,7 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				<Item Name="NI_FpgaMspHost.lvlib" Type="Library" URL="/&lt;vilib&gt;/rvi/Analysis/host/Public/NI_FpgaMspHost.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
@@ -3161,6 +3243,10 @@ AddOutputFilter chunkFilter
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
 				<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../IP Source/Engine Simulation Toolkit.lvlib"/>
+				<Item Name="IP Builder" Type="IP Builder Target">
+					<Item Name="Dependencies" Type="Dependencies"/>
+					<Item Name="Build Specifications" Type="Build"/>
+				</Item>
 				<Item Name="Mod1" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">0</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
@@ -3426,46 +3512,27 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="user.lib" Type="Folder">
-						<Item Name="AES.lvlib" Type="Library" URL="/&lt;userlib&gt;/AES/AES.lvlib"/>
+						<Item Name="AES Angle Processing Unit.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Angle Processing Unit.vi"/>
+						<Item Name="AES Calculate Replay Address.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Calculate Replay Address.vi"/>
+						<Item Name="AES Data Replay Voltage Scaling.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Data Replay Voltage Scaling.vi"/>
+						<Item Name="AES ECU Event Measurement - All Measurements.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES ECU Event Measurement - All Measurements.vi"/>
+						<Item Name="AES ECU Event Measurement.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES ECU Event Measurement.vi"/>
+						<Item Name="AES Fully Customizable Teeth Generation.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Fully Customizable Teeth Generation.vi"/>
+						<Item Name="AES Limit APU Speed Request By Acceleration.vi" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA VIs/AES Limit APU Speed Request By Acceleration.vi"/>
+						<Item Name="aes_FullyCustomTeeth ActionEngine Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/AES/FPGA/FPGA TypeDefs/aes_FullyCustomTeeth ActionEngine Enum.ctl"/>
 						<Item Name="Engine Simulation Globals.vi" Type="VI" URL="/&lt;userlib&gt;/_NI VeriStand FPGA Support/NI VeriStand RIO Library/Custom Device Components/Engine Simulation/Engine Simulation Globals.vi"/>
 					</Item>
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
-					<Item Name="niFpgaEmulationReportErrorSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationReportErrorSimple.vi"/>
-					<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-					<Item Name="niFpgaEmulError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/niFpgaEmulError.ctl"/>
-					<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaGenCallStack.vi"/>
-					<Item Name="niFpgaGetClockAttributes.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributes.vi"/>
-					<Item Name="niFpgaGetClockAttributesFromContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributesFromContext.vi"/>
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="niFpgaProcessEmulError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaProcessEmulError.vi"/>
-					<Item Name="niFpgaSctlEmulationGetInTimedLoop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGetInTimedLoop.vi"/>
-					<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
-					<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-					<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
-					<Item Name="nirvififoEmulationReleaseLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationReleaseLock.vi"/>
-					<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviFillInErrorInfo.vi"/>
-					<Item Name="nirviGetToplevelTsByTargetItem.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviGetToplevelTsByTargetItem.vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (Bool).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (Bool).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (String).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (String).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError (U32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (U32).vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError.vi"/>
-					<Item Name="nirviReportUnexpectedCaseInternalErrorHelper.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalErrorHelper.vi"/>
-					<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
-					<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
-					<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="APU" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU_0qqUiXiHTg8.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU_f45Cjh0KCpY.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3474,6 +3541,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3495,7 +3569,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + 1 Data Replay</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+1DataReplay_YAIofKb4iUk.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+1DataReplay_mjWELGhKSZs.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3504,6 +3578,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3525,7 +3606,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + 1 Directional Sim</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+1Directional_S0YkfJbvMIU.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+1Directional_1y0G+RBYDXY.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3534,6 +3615,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3555,7 +3643,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + 2 Data Replay</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+2DataReplay_gFZsz5OVWl8.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+2DataReplay_C96sVC6qoes.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3564,6 +3652,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3585,7 +3680,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + 4 Digital Patterns</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+4DigitalPatt_I3CmbjHVqlM.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+4DigitalPatt_ngQm2-Mks3s.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3594,6 +3689,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3615,7 +3717,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + Event Timing v6 four shots</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+EventTimingv_zKE0cdzNTLU.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+EventTimingv_o2Z0Q4YbqoE.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3624,6 +3726,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3645,7 +3754,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + Event Timing v6 single shot</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+EventTimingv_X1XT+5gQF84.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+EventTimingv_0hIUtS7-Zhw.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3654,6 +3763,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3675,7 +3791,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">APU + Knock Compile test</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+KnockCompile_h1AN7pcJmow.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_APU+KnockCompile_uvcr9YfpV2g.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3684,6 +3800,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3705,7 +3828,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">old APU</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU_CTY2i0KMy6I.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU_yENj4nA48fE.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3714,6 +3837,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3735,7 +3865,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">old APU + 1 old Data Replay</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU+1oldDataR_ONUgICwikHg.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU+1oldDataR_zhEOpOQDDrk.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3744,6 +3874,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3765,7 +3902,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">old APU + 2 old Data Replay</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU+2oldDataR_LhD3v3Yl06M.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU+2oldDataR_swmCrDaBUu0.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3774,6 +3911,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3795,7 +3939,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">old APU + 4 CAMs</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU+4CAMs_w7f8GRW6Wj4.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPU+4CAMs_bQqoZifhg4c.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3804,6 +3948,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
@@ -3825,7 +3976,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">old APU and old Event Timing v6 single shot</Property>
-						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPUandoldEven_GZcwVoKgljw.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">IPPrototyping_cRIO-9082_oldAPUandoldEven_h9SaAUI8Qck.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -3834,6 +3985,13 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Default</Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
 						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
 						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
