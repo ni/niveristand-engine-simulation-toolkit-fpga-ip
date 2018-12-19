@@ -13,6 +13,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Apply APU Acceleration.vi" Type="VI" URL="../Apply APU Acceleration.vi"/>
 		<Item Name="APU Counters.vi" Type="VI" URL="../APU Counters.vi"/>
+		<Item Name="Sync Pulse.vi" Type="VI" URL="../Sync Pulse.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Input.ctl" Type="VI" URL="../Input.ctl"/>
@@ -21,6 +22,9 @@
 		<Item Name="Settings.ctl" Type="VI" URL="../Settings.ctl"/>
 		<Item Name="Shared Settings.ctl" Type="VI" URL="../Shared Settings.ctl"/>
 	</Item>
+	<Item Name="Angle Processing Unit - Multi FPGA.vi" Type="VI" URL="../Angle Processing Unit - Multi FPGA.vi"/>
 	<Item Name="Angle Processing Unit.vi" Type="VI" URL="../Angle Processing Unit.vi"/>
+	<Item Name="APU Synchronization Trigger.vi" Type="VI" URL="../APU Synchronization Trigger.vi"/>
+	<Item Name="Create APU Register Bus - Multi FPGA.vi" Type="VI" URL="../Create APU Register Bus - Multi FPGA.vi"/>
 	<Item Name="Create APU Register Bus.vi" Type="VI" URL="../Create APU Register Bus.vi"/>
 </Library>
