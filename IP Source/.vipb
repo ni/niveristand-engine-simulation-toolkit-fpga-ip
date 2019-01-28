@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-04-15 09:50:59" Modified_Date="2019-01-25 15:33:48" Creator="sbarrett" Comments="" ID="d03bab1541627093b8c42d17e62d21f4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-04-15 09:50:59" Modified_Date="2019-01-28 14:10:00" Creator="sbarrett" Comments="" ID="faadf98263750562a41a071e976cc907">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_engine_simulation_toolkit_(est)</Package_File_Name>
     <Library_Version>1.4.0.1</Library_Version>
@@ -117,6 +117,15 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>EST FPGA IP.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>NI_Sample_Code_ License_Terms.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Tests</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>NI_Sample_Code_ License_Terms.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -286,7 +295,7 @@
         <Path>Directional Speed Sensor</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6102FB06FB04D12F19AF1BBDCF68E673</GUID>
+      <GUID>2BE46E196930A50958D5B8A60C2A5A30</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -335,7 +344,7 @@
         <Path>Analog Replay\Load Analog Replay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20E08569C0FE2CE951B6F765E4D617C8</GUID>
+      <GUID>97405590501FB11DC7D3C5963700BBF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -384,7 +393,7 @@
         <Path>Digital Pattern Generation\Load Digital Pattern Generation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F31E136ADD5B6ED8C234AAA80E65477F</GUID>
+      <GUID>9C567752714D4B3F0D441B72C5E9E710</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -419,7 +428,7 @@
         <Path>ECU Event\Timing Capture</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18A90F6CF48BDB2E26080B5DAF4D8C00</GUID>
+      <GUID>649F487A26350F1D15E80360D19900EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -468,7 +477,7 @@
         <Path>ECU Event\Timing\Measure Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>053A8EB833548DA7A9C68BD1D9A85A45</GUID>
+      <GUID>0028895999E5EBA6898ED4A7F09057CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -517,7 +526,7 @@
         <Path>Multi FPGA</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81A26DFD9598CD591C8036A62BC01EC1</GUID>
+      <GUID>8E3C5C5F84D458D9DD4D5D98CA51A3C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -566,7 +575,7 @@
         <Path>Knock Sensor\Generate Signal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACAB6434767C55238D7E7E7558D29E92</GUID>
+      <GUID>1C9B01B8B4285F7A9EF9E2686E9B4166</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -615,7 +624,7 @@
         <Path>Directional Speed\Directional Speed Sensor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22284C53E7DFAB9E391E319E32106E27</GUID>
+      <GUID>79E2AE89C15F09E9A62E635B0255FB25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -664,7 +673,7 @@
         <Path>APU\Angle Processing Unit.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6F64C2840AA4D68D374BA28BB783D39</GUID>
+      <GUID>C39413BDD5146C0B9678E4DFD0653322</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -727,7 +736,7 @@
         <Path>APU\APU Synchronization Trigger.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A74E945FFBF63982C6E2883EA28A472B</GUID>
+      <GUID>2562823EF33214196F160C5788120EFD</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -762,7 +771,7 @@
         <Path>Version Token.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>768A9BBB2D854A994EE0B24156944438</GUID>
+      <GUID>6DE24E6B2CE6DF4573143DAA13DDF72F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
